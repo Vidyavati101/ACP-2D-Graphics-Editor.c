@@ -20,4 +20,4 @@ A simple 2D Graphics Editor implemented in C.
 
 ## Author
 
-Vidhyavati
+Vidyavati
