@@ -1,0 +1,166 @@
+DETAILED GITHUB & MINI-PROJECT PROMPT HISTORY
+
+====================================================
+GITHUB / VS CODE
+====================================================
+
+1. How to add GitHub repositories to VS Code?
+   Context:
+   - User wanted to connect/open a GitHub repository inside Visual Studio Code.
+
+2. How to add README and .gitignore to this repository?
+   Context:
+   - User shared screenshots of a GitHub repository.
+   - Asked how to create and add README.md and .gitignore files.
+
+3. GitHub Diff Analysis
+   Prompt:
+   - "How can I remove that"
+   Context:
+   - User shared a screenshot showing GitHub changes/diff indicators.
+   - Requested help removing them.
+
+4. Git Push / GitHub Terminal Output
+   Context:
+   - User shared terminal output:
+     Enumerating objects...
+     Counting objects...
+     Compressing objects...
+     Writing objects...
+   - Requested help understanding the output and pushing code to GitHub.
+
+====================================================
+GCC / MSYS2 / COMPILER SETUP
+====================================================
+
+5. GCC Installation Setup
+   Prompt:
+   - "Gcc installation setup"
+
+6. GCC Download Link
+   Prompt:
+   - "Gcc download link"
+
+7. MSYS2 Installation Issues
+   Context:
+   - User shared a screenshot.
+   - Requested installation commands and setup assistance.
+
+8. GCC File Not Found Error
+   Prompt:
+   PS C:\Users\HP\Downloads\miniproject_R25EF195_prasanna-main\
+   miniproject_R25EF195_prasanna-main>
+   gcc main.c -o graphics.exe -lm
+
+   Error:
+   cc1.exe: fatal error: main.c: No such file or directory
+   compilation terminated.
+
+   Goal:
+   - Compile the mini-project successfully.
+
+====================================================
+MINI PROJECT - GRAPHICS PROJECT
+====================================================
+
+9. Graphics Project Compilation
+   Context:
+   - User posted a large C graphics project.
+
+   Included:
+   - stdio.h
+   - stdlib.h
+   - math.h
+   - string.h
+   - WIDTH definition
+   - HEIGHT definition
+   - MAX_OBJECTS definition
+
+   Goal:
+   - Compile and execute the graphics project.
+   - Resolve GCC compilation issues.
+
+====================================================
+MOVIE SEARCH MINI PROJECT
+====================================================
+
+10. Movie Search Bug Fix
+
+   User shared code containing:
+
+   typedef struct
+   {
+       char name[100];
+       char language[50];
+       int year;
+       float rating;
+   } Movie;
+
+   Function prototypes:
+
+   - countMovies()
+   - allocateMemory()
+   - readMovies()
+   - getSearchMovieName()
+   - removeNewLine()
+   - linearSearch()
+
+   Goal:
+   - Find and fix bugs.
+   - Make movie searching work correctly.
+
+11. displayMovie Function Bug
+
+   User again shared movie-management code.
+
+   Requested:
+   - Debug displayMovie-related issues.
+   - Correct output formatting.
+   - Fix runtime/logic errors.
+
+====================================================
+FILE HANDLING MINI PROJECT
+====================================================
+
+12. Student File Reading/Writing Program
+
+   User shared:
+
+   typedef struct {
+       int id;
+       char name[50];
+       float marks;
+   } Student;
+
+   Functions:
+
+   - inputStudents()
+   - writeToTextFile()
+   - readFromTextFile()
+   - printStudents()
+
+   Goal:
+   - Fix file-reading issues.
+   - Debug file handling logic.
+   - Ensure records are saved and loaded correctly.
+
+====================================================
+COMMON TASKS REQUESTED
+====================================================
+
+- GitHub repository setup
+- VS Code integration
+- README creation
+- .gitignore creation
+- Git push troubleshooting
+- GCC installation
+- MSYS2 setup
+- Compilation error fixing
+- C project debugging
+- File handling debugging
+- Movie search project debugging
+- Graphics mini-project compilation
+- Runtime error fixing
+- Logic error fixing
+
+End of detailed prompt summary.
